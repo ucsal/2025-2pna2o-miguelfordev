@@ -7,5 +7,6 @@ public class Main {
 		System.out.println("PREMIUM 100 -> " + calc.apply(100, CustomerType.PREMIUM));
 		// PARTNER deveria ter 12%
 		System.out.println("PARTNER 100 -> " + calc.apply(100, CustomerType.PARTNER));
+		System.out.println("MEMBER 100 ->" + calc.apply(100, CustomerType.MEMBER));
 	}
 }
